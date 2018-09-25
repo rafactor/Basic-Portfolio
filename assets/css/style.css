@@ -1,0 +1,113 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin:0px;
+    
+    background-image: url(assets/images/profile.jpg);
+    background-repeat: repeat;
+    position: relative;
+ 
+}
+
+.navigation {
+    background-color:#ffffff;
+    border-bottom:  #cccccc solid 2px;
+}
+header {
+    margin: 0;
+    height: 100px;
+    position: relative;
+    width: 960px;
+    margin: 0px auto;  
+    
+}
+
+#name {
+    background-color: teal;
+    color:white;
+    float: left;
+    padding: 10px 40px;
+    line-height: 40px;
+    bottom: 0px;
+    left: 0px;
+    position: absolute;
+ 
+}
+
+#name_heading {
+    color: white;
+}
+#links {
+    float: right;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    line-height: 100px;
+    height: 100px;
+    margin: 40px 0 0 0px;
+}
+
+
+ul#links li {
+    display: inline;
+    padding: 0 30px;
+    font-size: 20px;
+    font-weight: bold;
+   
+}
+
+
+
+main {
+    background-image: url("/Basic-Portfolio/connectwork.png");
+    width: 960px;
+    margin: 20px auto;
+   
+    background-color: #ffffff;
+    border: #dddddd;
+    padding: 20px;
+}
+
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: teal;
+}
+
+p, li, div, footer, a, ul {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+}
+
+footer {
+    background-color: #666666;
+    text-align: center;
+  
+    color: white;
+    padding: 30px 0 10px 0px;
+    
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+    
+}
+
+a {
+    text-decoration: none;
+}
+
+#profile {
+    width: 200px;
+    height: 150px;
+    background-color: beige;
+    float: left;
+    margin: 10px 20px 0px 0px;
+    
+}
+
+p {
+    line-height: 30px;
+}
+
