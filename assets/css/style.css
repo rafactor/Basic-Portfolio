@@ -5,7 +5,7 @@
 body {
     margin:0px;
     background-color:black;
-    background-image: url("assets/images/profile.jpg");
+    background-image: url(/assets/images/baking.jpg);
     background-repeat: repeat;
     position: relative;
     
@@ -17,7 +17,7 @@ body {
 }
 header {
     margin: 0;
-    height: 100px;
+    height: 80px;
     position: relative;
     width: 960px;
     margin: 0px auto;  
@@ -28,7 +28,7 @@ header {
     background-color: teal;
     color:white;
     float: left;
-    padding: 10px 40px;
+    padding: 0px 40px;
     line-height: 40px;
     bottom: 0px;
     left: 0px;
@@ -45,15 +45,15 @@ header {
     bottom: 0px;
     right: 0px;
     line-height: 100px;
-    height: 100px;
-    margin: 40px 0 0 0px;
+    height: 90px;
+    margin: 0px 0 0 0px;
 }
 
 
 ul#links li {
     display: inline;
-    padding: 0 30px;
-    font-size: 20px;
+    padding: 0 20px;
+    font-size: 15px;
     font-weight: bold;
    
 }
@@ -61,9 +61,8 @@ ul#links li {
 
 
 main {
-    background-image: url("/Basic-Portfolio/connectwork.png");
     width: 960px;
-    margin: 20px auto;
+    margin: 10px auto 100px auto;
    
     background-color: #ffffff;
     border: #dddddd;
@@ -92,7 +91,7 @@ footer {
     width: 100%;
     position: fixed;
     bottom: 0px;
-    
+    clear:both;
 }
 
 a {
@@ -118,7 +117,7 @@ p {
 }
 
 textarea {
-    height: 400px;
+    height: 200px;
     width: 920px;
     border: #dddddd solid 1px;
 }
@@ -135,4 +134,35 @@ label {
     font-family: Arial, Helvetica, sans-serif;
     color: white;
     font-size: 15px;
+}
+
+ 
+
+
+
+.portfolio {
+    width: 300px;
+    height: 200px;
+    display: inline-block;
+    margin: 10px 40px 30px 0px;
+    position: relative;
+    float: left;
+}
+
+
+.portfolioName {
+    width: 300px;
+    padding: 20px;
+    background-color: #777777;
+    color: white;
+    position: absolute;
+    bottom: 5px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.image {
+    width: 300px;
+    height: 200px;
+    
 }
