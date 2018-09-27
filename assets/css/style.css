@@ -2,19 +2,20 @@
     box-sizing: border-box;
 }
 
+/* Global Styles 
+**************************************************************/
+
 body {
     margin:0px;
-    background-color:black;
-    background-image: url(/assets/images/baking.jpg);
+    background-image: url("../images/gravel.png");
     background-repeat: repeat;
     position: relative;
     
 }
 
-.navigation {
-    background-color:#ffffff;
-    border-bottom:  #cccccc solid 2px;
-}
+
+/* Navigation Bar
+**************************************************************/
 header {
     margin: 0;
     height: 80px;
@@ -24,6 +25,45 @@ header {
     
 }
 
+.navigation {
+    background-color:#ffffff;
+    border-bottom:  #cccccc solid 2px;
+}
+
+#ul-links {
+    float: right;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    line-height: 100px;
+    height: 90px;
+    margin: 0px 0 0 0px;
+    
+}
+
+li {
+    display: inline;
+    font-size: 15px;
+    font-weight: bold;
+
+}
+
+a {
+    text-decoration: none;
+}
+.link {
+    float:left;
+    height: 90px;
+    padding: 0 10px;
+}
+
+.link:hover {
+    background-color:  #FF0000;
+    color:white;
+}
+
+/* Name
+**************************************************************/
 #name {
     background-color: teal;
     color:white;
@@ -39,26 +79,12 @@ header {
 #name_heading {
     color: white;
 }
-#links {
-    float: right;
-    position: absolute;
-    bottom: 0px;
-    right: 0px;
-    line-height: 100px;
-    height: 90px;
-    margin: 0px 0 0 0px;
-}
 
 
-ul#links li {
-    display: inline;
-    padding: 0 20px;
-    font-size: 15px;
-    font-weight: bold;
-   
-}
 
 
+/* Main Content 
+**************************************************************/
 
 main {
     width: 960px;
@@ -94,9 +120,7 @@ footer {
     clear:both;
 }
 
-a {
-    text-decoration: none;
-}
+
 
 #profile {
     width: 200px;
@@ -136,8 +160,14 @@ label {
     font-size: 15px;
 }
 
+.button:hover {
+    background-color: #FF0000;
+ 
+}
  
 
+/* Portfolio
+**************************************************************/
 
 
 .portfolio {
